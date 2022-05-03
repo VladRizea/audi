@@ -1,0 +1,31 @@
+
+
+
+.streams {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+}
+
+
+.video {
+  /* override other styles to make responsive */
+  width: 100%;
+  height: 400px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
